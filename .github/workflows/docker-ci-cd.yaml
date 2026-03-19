@@ -1,0 +1,3 @@
+name : Test Workflow #<workflow name>
+
+on: [push, pull_request] #<event that triggers the workflow, e.g., push, pull_request, etc.>
