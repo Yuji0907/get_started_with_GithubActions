@@ -1,0 +1,35 @@
+# Ignore Python virtual environments (common typos included)
+venv/
+.venv/
+vnv/
+env/
+
+# Bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Distribution/build artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Test and lint caches
+.pytest_cache/
+.mypy_cache/
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Secrets and local env
+.env
+.env.local
+
+# Git and misc
+.git
+.DS_Store
+node_modules/
